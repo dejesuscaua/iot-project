@@ -1,0 +1,59 @@
+# 🛡️ Cyber Global Solution – 2025  
+**Impactos Cibernéticos de Falhas Elétricas**
+
+## 👥 Integrantes
+- **Cauã Gonçalves de Jesus – RM97648**  
+- **Luigi Ferrara Sinno – RM98047**
+
+---
+
+## 📌 Descrição do Problema
+
+Falhas elétricas não afetam apenas a infraestrutura física, mas representam riscos graves à **segurança cibernética**.  
+Durante apagões, sistemas críticos como **hospitais, data centers e redes elétricas** ficam expostos, com:
+- Dispositivos IoT reiniciando sem proteção,
+- Falhas em backups,
+- Aumento do risco de ataques cibernéticos.
+
+Estes eventos comprometem dados sigilosos e serviços essenciais.
+
+---
+
+## 💡 Visão Geral da Solução
+
+Desenvolvemos uma solução baseada em **visão computacional com IA leve (MediaPipe)** e análise de **luminosidade ambiente**, que:
+- **Detecta queda de energia (baixa luz)**,
+- **Verifica presença humana via câmera**,
+- **Ativa protocolos simulados de segurança**, mesmo sem conexão ou energia contínua.
+
+> ⚠️ A proposta visa simular a ativação de um sistema de resposta automática (como um BESS – Battery Energy Storage System) para ambientes críticos.
+
+---
+
+## 📷 Demonstração Visual
+
+> **Figura 1** – Detecção facial com caixa verde  
+> **Figura 2** – Simulação de baixa iluminação  
+> **Figura 3** – Ativação do protocolo em tempo real
+
+> (As figuras devem ser incluídas no repositório ou apresentação com capturas do vídeo.)
+
+---
+
+## 🎥 Vídeo Demonstrativo
+
+🔗 [Link para o vídeo da solução demonstrada](https://youtu.be/IsqBxte_G2c)  
+<sub>Substitua pelo link real do vídeo quando for publicado.</sub>
+
+---
+
+## 🔧 Como Executar
+
+### ✅ Pré-requisitos
+- Python 3.8 ou superior
+- OpenCV
+- Mediapipe
+
+### 📦 Instalação
+```bash
+pip install opencv-python mediapipe
